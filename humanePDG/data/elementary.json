@@ -1,0 +1,2682 @@
+{
+    "-24": {
+        "name": "WMinus",
+        "pdgID": -24,
+        "pdgCode": "S043",
+        "pdg_dict_name": "W",
+        "decayModes": [
+            {
+                "parent": "W-",
+                "probability": 0.32136899999999996,
+                "daughters": [
+                    "d",
+                    "ubar"
+                ]
+            },
+            {
+                "parent": "W-",
+                "probability": 0.32061500000000004,
+                "daughters": [
+                    "s",
+                    "cbar"
+                ]
+            },
+            {
+                "parent": "W-",
+                "probability": 0.108166,
+                "daughters": [
+                    "mu-",
+                    "nu_mubar"
+                ]
+            },
+            {
+                "parent": "W-",
+                "probability": 0.108166,
+                "daughters": [
+                    "e-",
+                    "nu_ebar"
+                ]
+            },
+            {
+                "parent": "W-",
+                "probability": 0.108087,
+                "daughters": [
+                    "tau-",
+                    "nu_taubar"
+                ]
+            },
+            {
+                "parent": "W-",
+                "probability": 0.016502,
+                "daughters": [
+                    "s",
+                    "ubar"
+                ]
+            },
+            {
+                "parent": "W-",
+                "probability": 0.016493999999999998,
+                "daughters": [
+                    "d",
+                    "cbar"
+                ]
+            },
+            {
+                "parent": "W-",
+                "probability": 0.0005909999999999999,
+                "daughters": [
+                    "b",
+                    "cbar"
+                ]
+            },
+            {
+                "parent": "W-",
+                "probability": 1e-05,
+                "daughters": [
+                    "b",
+                    "ubar"
+                ]
+            }
+        ],
+        "symbol": "W-",
+        "pdgName": "W",
+        "programmName": "W_minus",
+        "charge": -1.0,
+        "mass": 80377.0,
+        "massLower": 12.0,
+        "massUpper": 12.0,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": 3.164480562263974e-16,
+        "width": 2080.0,
+        "widthLower": 40.0,
+        "widthUpper": 40.0,
+        "angularMomentum": 1.0,
+        "spinType": "full",
+        "particleType": "boson",
+        "unicode": "W\u207b",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "-18": {
+        "name": "AntiTauPrimeNeutrino",
+        "pdgID": -18,
+        "pdgCode": "Unknown",
+        "pdg_dict_name": "Unknown",
+        "decayModes": [
+            {
+                "parent": "nu'_taubar",
+                "probability": 1.0,
+                "daughters": [
+                    "W-",
+                    "tau'+"
+                ]
+            }
+        ],
+        "symbol": "nu(tau')~",
+        "pdgName": "nu(tau')",
+        "programmName": "nu_taup_bar",
+        "charge": 0.0,
+        "mass": null,
+        "massLower": null,
+        "massUpper": null,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": null,
+        "spinType": "Unknown",
+        "particleType": "lepton",
+        "unicode": "\u03bd(\u03c4')~",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "-17": {
+        "name": "TauPrimePlus",
+        "pdgID": -17,
+        "pdgCode": "Unknown",
+        "pdg_dict_name": "Unknown",
+        "decayModes": [
+            {
+                "parent": "tau'+",
+                "probability": 1.0,
+                "daughters": [
+                    "W+",
+                    "nu'_taubar"
+                ]
+            }
+        ],
+        "symbol": "tau'+",
+        "pdgName": "tau'",
+        "programmName": "taup_plus",
+        "charge": 1.0,
+        "mass": null,
+        "massLower": null,
+        "massUpper": null,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": null,
+        "spinType": "Unknown",
+        "particleType": "lepton",
+        "unicode": "\u03c4'\u207a",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "-16": {
+        "name": "AntiTauNeutrino",
+        "pdgID": -16,
+        "pdgCode": "Unknown",
+        "pdg_dict_name": "Unknown",
+        "decayModes": [
+            "nu_taubar is stable"
+        ],
+        "symbol": "nu(tau)~",
+        "pdgName": "nu(tau)",
+        "programmName": "nu_tau_bar",
+        "charge": 0.0,
+        "mass": null,
+        "massLower": null,
+        "massUpper": null,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": Infinity,
+        "width": 0.0,
+        "widthLower": 0.0,
+        "widthUpper": 0.0,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "lepton",
+        "unicode": "\u03bd(\u03c4)~",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "-15": {
+        "name": "TauPlus",
+        "pdgID": -15,
+        "pdgCode": "S035",
+        "pdg_dict_name": "tau",
+        "decayModes": [
+            {
+                "parent": "tau+",
+                "probability": 0.25489,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "pi+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.17834499999999998,
+                "daughters": [
+                    "nu_taubar",
+                    "e+",
+                    "nu_e"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.173545,
+                "daughters": [
+                    "nu_taubar",
+                    "mu+",
+                    "nu_mu"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.108924,
+                "daughters": [
+                    "nu_taubar",
+                    "pi+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.09237000000000001,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "*-111",
+                    "pi+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.08981299999999999,
+                "daughters": [
+                    "nu_taubar",
+                    "pi+",
+                    "pi+",
+                    "pi-"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.044435,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "pi+",
+                    "pi+",
+                    "pi-"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.010313000000000001,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "*-111",
+                    "*-111",
+                    "pi+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.008957,
+                "daughters": [
+                    "nu_taubar",
+                    "pi+",
+                    "K0"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.006885,
+                "daughters": [
+                    "nu_taubar",
+                    "K+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.004935,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "*-111",
+                    "pi+",
+                    "pi+",
+                    "pi-"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.004491,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "K+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.003757,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "pi+",
+                    "K0"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.003292,
+                "daughters": [
+                    "nu_taubar",
+                    "pi+",
+                    "pi-",
+                    "K+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.001762,
+                "daughters": [
+                    "nu_taubar",
+                    "*-22",
+                    "*-111",
+                    "pi+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.0017439999999999999,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "pi+",
+                    "*-221"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.0015190000000000002,
+                "daughters": [
+                    "nu_taubar",
+                    "pi+",
+                    "K+",
+                    "K-"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.0015179999999999998,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "Kbar0",
+                    "K+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.0015129999999999998,
+                "daughters": [
+                    "nu_taubar",
+                    "Kbar0",
+                    "K+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.001087,
+                "daughters": [
+                    "nu_taubar",
+                    "*-130",
+                    "pi+",
+                    "*-310"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000957,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "*-111",
+                    "*-111",
+                    "*-111",
+                    "pi+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000834,
+                "daughters": [
+                    "nu_taubar",
+                    "pi+",
+                    "pi+",
+                    "pi+",
+                    "pi-",
+                    "pi-"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000555,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "*-111",
+                    "K+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.0004,
+                "daughters": [
+                    "nu_taubar",
+                    "*-223",
+                    "K+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000397,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "*-111",
+                    "*-111",
+                    "K+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.00030700000000000004,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "pi+",
+                    "pi-",
+                    "K+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000297,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "pi+",
+                    "K0",
+                    "Kbar0"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.00028000000000000003,
+                "daughters": [
+                    "nu_taubar",
+                    "*-221",
+                    "K*+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000263,
+                "daughters": [
+                    "nu_taubar",
+                    "*-221",
+                    "K+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000238,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "*-111",
+                    "pi+",
+                    "K0"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000235,
+                "daughters": [
+                    "nu_taubar",
+                    "pi+",
+                    "*-310",
+                    "*-310"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000235,
+                "daughters": [
+                    "nu_taubar",
+                    "*-130",
+                    "*-130",
+                    "pi+"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000225,
+                "daughters": [
+                    "nu_taubar",
+                    "pi+",
+                    "pi+",
+                    "pi-",
+                    "K0"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000225,
+                "daughters": [
+                    "nu_taubar",
+                    "pi+",
+                    "pi+",
+                    "pi-",
+                    "*-221"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000145,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "*-111",
+                    "pi+",
+                    "*-221"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000135,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "*-111",
+                    "pi+",
+                    "*-223"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 0.000118,
+                "daughters": [
+                    "nu_taubar",
+                    "pi+",
+                    "pi+",
+                    "pi-",
+                    "*-223"
+                ]
+            },
+            {
+                "parent": "tau+",
+                "probability": 5.9e-05,
+                "daughters": [
+                    "nu_taubar",
+                    "*-111",
+                    "pi+",
+                    "K+",
+                    "K-"
+                ]
+            }
+        ],
+        "symbol": "tau+",
+        "pdgName": "tau",
+        "programmName": "tau_plus",
+        "charge": 1.0,
+        "mass": 1776.86,
+        "massLower": 0.12,
+        "massUpper": 0.12,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": 0.00029034493028271127,
+        "width": 2.267e-09,
+        "widthLower": 4e-12,
+        "widthUpper": 4e-12,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "lepton",
+        "unicode": "\u03c4\u207a",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "-14": {
+        "name": "AntiMuonNeutrino",
+        "pdgID": -14,
+        "pdgCode": "Unknown",
+        "pdg_dict_name": "Unknown",
+        "decayModes": [
+            "nu_mubar is stable"
+        ],
+        "symbol": "nu(mu)~",
+        "pdgName": "nu(mu)",
+        "programmName": "nu_mu_bar",
+        "charge": 0.0,
+        "mass": null,
+        "massLower": null,
+        "massUpper": null,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": Infinity,
+        "width": 0.0,
+        "widthLower": 0.0,
+        "widthUpper": 0.0,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "lepton",
+        "unicode": "\u03bd(\u03bc)~",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "-13": {
+        "name": "MuonPlus",
+        "pdgID": -13,
+        "pdgCode": "S004",
+        "pdg_dict_name": "mu",
+        "decayModes": [
+            {
+                "parent": "mu+",
+                "probability": 1.0,
+                "daughters": [
+                    "nu_e",
+                    "e+",
+                    "nu_mubar"
+                ]
+            }
+        ],
+        "symbol": "mu+",
+        "pdgName": "mu",
+        "programmName": "mu_plus",
+        "charge": 1.0,
+        "mass": 105.6583755,
+        "massLower": 2.3e-06,
+        "massUpper": 2.3e-06,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": 2196.981174899978,
+        "width": 2.9959836e-16,
+        "widthLower": 3e-22,
+        "widthUpper": 3e-22,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "lepton",
+        "unicode": "\u03bc\u207a",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "-12": {
+        "name": "AntiElectronNeutrino",
+        "pdgID": -12,
+        "pdgCode": "Unknown",
+        "pdg_dict_name": "Unknown",
+        "decayModes": [
+            "nu_ebar is stable"
+        ],
+        "symbol": "nu(e)~",
+        "pdgName": "nu(e)",
+        "programmName": "nu_e_bar",
+        "charge": 0.0,
+        "mass": null,
+        "massLower": null,
+        "massUpper": null,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": Infinity,
+        "width": 0.0,
+        "widthLower": 0.0,
+        "widthUpper": 0.0,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "lepton",
+        "unicode": "\u03bd(e)~",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "-11": {
+        "name": "Positron",
+        "pdgID": -11,
+        "pdgCode": "S003",
+        "pdg_dict_name": "e",
+        "decayModes": [
+            "e+ is stable"
+        ],
+        "symbol": "e+",
+        "pdgName": "e",
+        "programmName": "e_plus",
+        "charge": 1.0,
+        "mass": 0.51099895,
+        "massLower": 1.5e-10,
+        "massUpper": 1.5e-10,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": Infinity,
+        "width": 0.0,
+        "widthLower": 0.0,
+        "widthUpper": 0.0,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "lepton",
+        "unicode": "e\u207a",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "-6": {
+        "name": "AntiTop",
+        "pdgID": -6,
+        "pdgCode": "Q007",
+        "pdg_dict_name": "t",
+        "decayModes": [
+            {
+                "parent": "tbar",
+                "probability": 0.998205,
+                "daughters": [
+                    "W-",
+                    "bbar"
+                ]
+            },
+            {
+                "parent": "tbar",
+                "probability": 0.0017649999999999999,
+                "daughters": [
+                    "W-",
+                    "sbar"
+                ]
+            },
+            {
+                "parent": "tbar",
+                "probability": 3e-05,
+                "daughters": [
+                    "W-",
+                    "dbar"
+                ]
+            }
+        ],
+        "symbol": "t~",
+        "pdgName": "t",
+        "programmName": "t_bar",
+        "charge": -0.6666666666666666,
+        "mass": 172500.0,
+        "massLower": 700.0,
+        "massUpper": 700.0,
+        "quarks": "T",
+        "selfConjugated": false,
+        "lifetime": 4.635295471485257e-16,
+        "width": 1420.0,
+        "widthLower": 150.0,
+        "widthUpper": 190.0,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "quark",
+        "unicode": "\u1e6f",
+        "isoSpin": 0,
+        "chargeConjugate": null,
+        "paritySymmetry": -1
+    },
+    "-5": {
+        "name": "AntiBottom",
+        "pdgID": -5,
+        "pdgCode": "Q005",
+        "pdg_dict_name": "b",
+        "decayModes": [
+            "bbar is stable"
+        ],
+        "symbol": "b~",
+        "pdgName": "b",
+        "programmName": "b_bar",
+        "charge": 0.3333333333333333,
+        "mass": 4180.0,
+        "massLower": 20.0,
+        "massUpper": 30.0,
+        "quarks": "B",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "quark",
+        "unicode": "\u1e07",
+        "isoSpin": 0,
+        "chargeConjugate": null,
+        "paritySymmetry": -1
+    },
+    "-4": {
+        "name": "AntiCharm",
+        "pdgID": -4,
+        "pdgCode": "Q004",
+        "pdg_dict_name": "c",
+        "decayModes": [
+            "cbar is stable"
+        ],
+        "symbol": "c~",
+        "pdgName": "c",
+        "programmName": "c_bar",
+        "charge": -0.6666666666666666,
+        "mass": 1270.0,
+        "massLower": 20.0,
+        "massUpper": 20.0,
+        "quarks": "C",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "quark",
+        "unicode": "c~",
+        "isoSpin": 0,
+        "chargeConjugate": null,
+        "paritySymmetry": -1
+    },
+    "-3": {
+        "name": "AntiStrange",
+        "pdgID": -3,
+        "pdgCode": "Q003",
+        "pdg_dict_name": "s",
+        "decayModes": [
+            "sbar is stable"
+        ],
+        "symbol": "s~",
+        "pdgName": "s",
+        "programmName": "s_bar",
+        "charge": 0.3333333333333333,
+        "mass": 93.4,
+        "massLower": 3.4,
+        "massUpper": 8.6,
+        "quarks": "S",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "quark",
+        "unicode": "s~",
+        "isoSpin": 0,
+        "chargeConjugate": null,
+        "paritySymmetry": -1
+    },
+    "-2": {
+        "name": "AntiUp",
+        "pdgID": -2,
+        "pdgCode": "Q002",
+        "pdg_dict_name": "u",
+        "decayModes": [
+            "ubar is stable"
+        ],
+        "symbol": "u~",
+        "pdgName": "u",
+        "programmName": "u_bar",
+        "charge": -0.6666666666666666,
+        "mass": 2.16,
+        "massLower": 0.3,
+        "massUpper": 0.5,
+        "quarks": "U",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "quark",
+        "unicode": "\u016b",
+        "isoSpin": 0.5,
+        "chargeConjugate": null,
+        "paritySymmetry": -1
+    },
+    "-1": {
+        "name": "AntiDown",
+        "pdgID": -1,
+        "pdgCode": "Q001",
+        "pdg_dict_name": "d",
+        "decayModes": [
+            "dbar is stable"
+        ],
+        "symbol": "d~",
+        "pdgName": "d",
+        "programmName": "d_bar",
+        "charge": 0.3333333333333333,
+        "mass": 4.67,
+        "massLower": 0.2,
+        "massUpper": 0.5,
+        "quarks": "D",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "quark",
+        "unicode": "\u1e0f",
+        "isoSpin": 0.5,
+        "chargeConjugate": null,
+        "paritySymmetry": -1
+    },
+    "1": {
+        "name": "Down",
+        "pdgID": 1,
+        "pdgCode": "Q001",
+        "pdg_dict_name": "d",
+        "decayModes": [
+            "d is stable"
+        ],
+        "symbol": "d",
+        "pdgName": "d",
+        "programmName": "d",
+        "charge": -0.3333333333333333,
+        "mass": 4.67,
+        "massLower": 0.2,
+        "massUpper": 0.5,
+        "quarks": "d",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "quark",
+        "unicode": "d",
+        "isoSpin": 0.5,
+        "chargeConjugate": null,
+        "paritySymmetry": 1
+    },
+    "2": {
+        "name": "Up",
+        "pdgID": 2,
+        "pdgCode": "Q002",
+        "pdg_dict_name": "u",
+        "decayModes": [
+            "u is stable"
+        ],
+        "symbol": "u",
+        "pdgName": "u",
+        "programmName": "u",
+        "charge": 0.6666666666666666,
+        "mass": 2.16,
+        "massLower": 0.3,
+        "massUpper": 0.5,
+        "quarks": "u",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "quark",
+        "unicode": "u",
+        "isoSpin": 0.5,
+        "chargeConjugate": null,
+        "paritySymmetry": 1
+    },
+    "3": {
+        "name": "Strange",
+        "pdgID": 3,
+        "pdgCode": "Q003",
+        "pdg_dict_name": "s",
+        "decayModes": [
+            "s is stable"
+        ],
+        "symbol": "s",
+        "pdgName": "s",
+        "programmName": "s",
+        "charge": -0.3333333333333333,
+        "mass": 93.4,
+        "massLower": 3.4,
+        "massUpper": 8.6,
+        "quarks": "s",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "quark",
+        "unicode": "s",
+        "isoSpin": 0,
+        "chargeConjugate": null,
+        "paritySymmetry": 1
+    },
+    "4": {
+        "name": "Charm",
+        "pdgID": 4,
+        "pdgCode": "Q004",
+        "pdg_dict_name": "c",
+        "decayModes": [
+            "c is stable"
+        ],
+        "symbol": "c",
+        "pdgName": "c",
+        "programmName": "c",
+        "charge": 0.6666666666666666,
+        "mass": 1270.0,
+        "massLower": 20.0,
+        "massUpper": 20.0,
+        "quarks": "c",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "quark",
+        "unicode": "c",
+        "isoSpin": 0,
+        "chargeConjugate": null,
+        "paritySymmetry": 1
+    },
+    "5": {
+        "name": "Bottom",
+        "pdgID": 5,
+        "pdgCode": "Q005",
+        "pdg_dict_name": "b",
+        "decayModes": [
+            "b is stable"
+        ],
+        "symbol": "b",
+        "pdgName": "b",
+        "programmName": "b",
+        "charge": -0.3333333333333333,
+        "mass": 4180.0,
+        "massLower": 20.0,
+        "massUpper": 30.0,
+        "quarks": "b",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "quark",
+        "unicode": "b",
+        "isoSpin": 0,
+        "chargeConjugate": null,
+        "paritySymmetry": 1
+    },
+    "6": {
+        "name": "Top",
+        "pdgID": 6,
+        "pdgCode": "Q007",
+        "pdg_dict_name": "t",
+        "decayModes": [
+            {
+                "parent": "t",
+                "probability": 0.998205,
+                "daughters": [
+                    "W+",
+                    "b"
+                ]
+            },
+            {
+                "parent": "t",
+                "probability": 0.0017649999999999999,
+                "daughters": [
+                    "W+",
+                    "s"
+                ]
+            },
+            {
+                "parent": "t",
+                "probability": 3e-05,
+                "daughters": [
+                    "W+",
+                    "d"
+                ]
+            }
+        ],
+        "symbol": "t",
+        "pdgName": "t",
+        "programmName": "t",
+        "charge": 0.6666666666666666,
+        "mass": 172500.0,
+        "massLower": 700.0,
+        "massUpper": 700.0,
+        "quarks": "t",
+        "selfConjugated": false,
+        "lifetime": 4.635295471485257e-16,
+        "width": 1420.0,
+        "widthLower": 150.0,
+        "widthUpper": 190.0,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "quark",
+        "unicode": "t",
+        "isoSpin": 0,
+        "chargeConjugate": null,
+        "paritySymmetry": 1
+    },
+    "11": {
+        "name": "Electron",
+        "pdgID": 11,
+        "pdgCode": "S003",
+        "pdg_dict_name": "e",
+        "decayModes": [
+            "e- is stable"
+        ],
+        "symbol": "e-",
+        "pdgName": "e",
+        "programmName": "e_minus",
+        "charge": -1.0,
+        "mass": 0.51099895,
+        "massLower": 1.5e-10,
+        "massUpper": 1.5e-10,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": Infinity,
+        "width": 0.0,
+        "widthLower": 0.0,
+        "widthUpper": 0.0,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "lepton",
+        "unicode": "e\u207b",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "12": {
+        "name": "ElectronNeutrino",
+        "pdgID": 12,
+        "pdgCode": "Unknown",
+        "pdg_dict_name": "Unknown",
+        "decayModes": [
+            "nu_e is stable"
+        ],
+        "symbol": "nu(e)",
+        "pdgName": "nu(e)",
+        "programmName": "nu_e",
+        "charge": 0.0,
+        "mass": null,
+        "massLower": null,
+        "massUpper": null,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": Infinity,
+        "width": 0.0,
+        "widthLower": 0.0,
+        "widthUpper": 0.0,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "lepton",
+        "unicode": "\u03bd(e)",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "13": {
+        "name": "MuonMinus",
+        "pdgID": 13,
+        "pdgCode": "S004",
+        "pdg_dict_name": "mu",
+        "decayModes": [
+            {
+                "parent": "mu-",
+                "probability": 1.0,
+                "daughters": [
+                    "nu_ebar",
+                    "e-",
+                    "nu_mu"
+                ]
+            }
+        ],
+        "symbol": "mu-",
+        "pdgName": "mu",
+        "programmName": "mu_minus",
+        "charge": -1.0,
+        "mass": 105.6583755,
+        "massLower": 2.3e-06,
+        "massUpper": 2.3e-06,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": 2196.981174899978,
+        "width": 2.9959836e-16,
+        "widthLower": 3e-22,
+        "widthUpper": 3e-22,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "lepton",
+        "unicode": "\u03bc\u207b",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "14": {
+        "name": "MuonNeutrino",
+        "pdgID": 14,
+        "pdgCode": "Unknown",
+        "pdg_dict_name": "Unknown",
+        "decayModes": [
+            "nu_mu is stable"
+        ],
+        "symbol": "nu(mu)",
+        "pdgName": "nu(mu)",
+        "programmName": "nu_mu",
+        "charge": 0.0,
+        "mass": null,
+        "massLower": null,
+        "massUpper": null,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": Infinity,
+        "width": 0.0,
+        "widthLower": 0.0,
+        "widthUpper": 0.0,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "lepton",
+        "unicode": "\u03bd(\u03bc)",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "15": {
+        "name": "TauMinus",
+        "pdgID": 15,
+        "pdgCode": "S035",
+        "pdg_dict_name": "tau",
+        "decayModes": [
+            {
+                "parent": "tau-",
+                "probability": 0.25489,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.17834499999999998,
+                "daughters": [
+                    "nu_tau",
+                    "e-",
+                    "nu_ebar"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.173545,
+                "daughters": [
+                    "nu_tau",
+                    "mu-",
+                    "nu_mubar"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.108924,
+                "daughters": [
+                    "nu_tau",
+                    "pi-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.09237000000000001,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi0",
+                    "pi-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.08981299999999999,
+                "daughters": [
+                    "nu_tau",
+                    "pi-",
+                    "pi-",
+                    "pi+"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.044435,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi-",
+                    "pi-",
+                    "pi+"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.010313000000000001,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi0",
+                    "pi0",
+                    "pi-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.008957,
+                "daughters": [
+                    "nu_tau",
+                    "pi-",
+                    "Kbar0"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.006885,
+                "daughters": [
+                    "nu_tau",
+                    "K-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.004935,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi0",
+                    "pi-",
+                    "pi-",
+                    "pi+"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.004491,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "K-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.003757,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi-",
+                    "Kbar0"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.003292,
+                "daughters": [
+                    "nu_tau",
+                    "pi-",
+                    "pi+",
+                    "K-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.001762,
+                "daughters": [
+                    "nu_tau",
+                    "gamma",
+                    "pi0",
+                    "pi-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.0017439999999999999,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi-",
+                    "eta"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.0015190000000000002,
+                "daughters": [
+                    "nu_tau",
+                    "pi-",
+                    "K-",
+                    "K+"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.0015179999999999998,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "K0",
+                    "K-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.0015129999999999998,
+                "daughters": [
+                    "nu_tau",
+                    "K0",
+                    "K-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.001087,
+                "daughters": [
+                    "nu_tau",
+                    "K_L0",
+                    "pi-",
+                    "K_S0"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000957,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi0",
+                    "pi0",
+                    "pi0",
+                    "pi-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000834,
+                "daughters": [
+                    "nu_tau",
+                    "pi-",
+                    "pi-",
+                    "pi-",
+                    "pi+",
+                    "pi+"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000555,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi0",
+                    "K-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.0004,
+                "daughters": [
+                    "nu_tau",
+                    "omega",
+                    "K-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000397,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi0",
+                    "pi0",
+                    "K-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.00030700000000000004,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi-",
+                    "pi+",
+                    "K-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000297,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi-",
+                    "Kbar0",
+                    "K0"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.00028000000000000003,
+                "daughters": [
+                    "nu_tau",
+                    "eta",
+                    "K*-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000263,
+                "daughters": [
+                    "nu_tau",
+                    "eta",
+                    "K-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000238,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi0",
+                    "pi-",
+                    "Kbar0"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000235,
+                "daughters": [
+                    "nu_tau",
+                    "K_L0",
+                    "K_L0",
+                    "pi-"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000235,
+                "daughters": [
+                    "nu_tau",
+                    "pi-",
+                    "K_S0",
+                    "K_S0"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000225,
+                "daughters": [
+                    "nu_tau",
+                    "pi-",
+                    "pi-",
+                    "pi+",
+                    "eta"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000225,
+                "daughters": [
+                    "nu_tau",
+                    "pi-",
+                    "pi-",
+                    "pi+",
+                    "Kbar0"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000145,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi0",
+                    "pi-",
+                    "eta"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000135,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi0",
+                    "pi-",
+                    "omega"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 0.000118,
+                "daughters": [
+                    "nu_tau",
+                    "pi-",
+                    "pi-",
+                    "pi+",
+                    "omega"
+                ]
+            },
+            {
+                "parent": "tau-",
+                "probability": 5.9e-05,
+                "daughters": [
+                    "nu_tau",
+                    "pi0",
+                    "pi-",
+                    "K-",
+                    "K+"
+                ]
+            }
+        ],
+        "symbol": "tau-",
+        "pdgName": "tau",
+        "programmName": "tau_minus",
+        "charge": -1.0,
+        "mass": 1776.86,
+        "massLower": 0.12,
+        "massUpper": 0.12,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": 0.00029034493028271127,
+        "width": 2.267e-09,
+        "widthLower": 4e-12,
+        "widthUpper": 4e-12,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "lepton",
+        "unicode": "\u03c4\u207b",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "16": {
+        "name": "TauNeutrino",
+        "pdgID": 16,
+        "pdgCode": "Unknown",
+        "pdg_dict_name": "Unknown",
+        "decayModes": [
+            "nu_tau is stable"
+        ],
+        "symbol": "nu(tau)",
+        "pdgName": "nu(tau)",
+        "programmName": "nu_tau",
+        "charge": 0.0,
+        "mass": null,
+        "massLower": null,
+        "massUpper": null,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": Infinity,
+        "width": 0.0,
+        "widthLower": 0.0,
+        "widthUpper": 0.0,
+        "angularMomentum": 0.5,
+        "spinType": "half",
+        "particleType": "lepton",
+        "unicode": "\u03bd(\u03c4)",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "17": {
+        "name": "TauPrimeMinus",
+        "pdgID": 17,
+        "pdgCode": "Unknown",
+        "pdg_dict_name": "Unknown",
+        "decayModes": [
+            {
+                "parent": "tau'-",
+                "probability": 1.0,
+                "daughters": [
+                    "W-",
+                    "nu'_tau"
+                ]
+            }
+        ],
+        "symbol": "tau'-",
+        "pdgName": "tau'",
+        "programmName": "taup_minus",
+        "charge": -1.0,
+        "mass": null,
+        "massLower": null,
+        "massUpper": null,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": null,
+        "spinType": "Unknown",
+        "particleType": "lepton",
+        "unicode": "\u03c4'\u207b",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "18": {
+        "name": "TauPrimeNeutrino",
+        "pdgID": 18,
+        "pdgCode": "Unknown",
+        "pdg_dict_name": "Unknown",
+        "decayModes": [
+            {
+                "parent": "nu'_tau",
+                "probability": 1.0,
+                "daughters": [
+                    "W+",
+                    "tau'-"
+                ]
+            }
+        ],
+        "symbol": "nu(tau')",
+        "pdgName": "nu(tau')",
+        "programmName": "nu_taup",
+        "charge": 0.0,
+        "mass": null,
+        "massLower": null,
+        "massUpper": null,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": null,
+        "width": null,
+        "widthLower": null,
+        "widthUpper": null,
+        "angularMomentum": null,
+        "spinType": "Unknown",
+        "particleType": "lepton",
+        "unicode": "\u03bd(\u03c4')",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "21": {
+        "name": "Gluon",
+        "pdgID": 21,
+        "pdgCode": "G021",
+        "pdg_dict_name": "g  or gluon",
+        "decayModes": [
+            "g is stable"
+        ],
+        "symbol": "g",
+        "pdgName": "g",
+        "programmName": "g",
+        "charge": 0.0,
+        "mass": 0.0,
+        "massLower": 0.0,
+        "massUpper": 0.0,
+        "quarks": "",
+        "selfConjugated": true,
+        "lifetime": Infinity,
+        "width": 0.0,
+        "widthLower": 0.0,
+        "widthUpper": 0.0,
+        "angularMomentum": 1.0,
+        "spinType": "full",
+        "particleType": "boson",
+        "unicode": "g",
+        "isoSpin": 0,
+        "chargeConjugate": null,
+        "paritySymmetry": -1
+    },
+    "22": {
+        "name": "Gamma",
+        "pdgID": 22,
+        "pdgCode": "S000",
+        "pdg_dict_name": "gamma (photon)",
+        "decayModes": [
+            "gamma is stable"
+        ],
+        "symbol": "gamma",
+        "pdgName": "gamma",
+        "programmName": "gamma",
+        "charge": 0.0,
+        "mass": 0.0,
+        "massLower": 0.0,
+        "massUpper": 0.0,
+        "quarks": "",
+        "selfConjugated": true,
+        "lifetime": Infinity,
+        "width": 0.0,
+        "widthLower": 0.0,
+        "widthUpper": 0.0,
+        "angularMomentum": 1.0,
+        "spinType": "full",
+        "particleType": "boson",
+        "unicode": "\u03b3",
+        "isoSpin": null,
+        "chargeConjugate": -1,
+        "paritySymmetry": -1
+    },
+    "23": {
+        "name": "ZBoson",
+        "pdgID": 23,
+        "pdgCode": "S044",
+        "pdg_dict_name": "Z",
+        "decayModes": [
+            {
+                "parent": "Z0",
+                "probability": 0.153995,
+                "daughters": [
+                    "d",
+                    "dbar"
+                ]
+            },
+            {
+                "parent": "Z0",
+                "probability": 0.153984,
+                "daughters": [
+                    "s",
+                    "sbar"
+                ]
+            },
+            {
+                "parent": "Z0",
+                "probability": 0.152272,
+                "daughters": [
+                    "b",
+                    "bbar"
+                ]
+            },
+            {
+                "parent": "Z0",
+                "probability": 0.11942,
+                "daughters": [
+                    "u",
+                    "ubar"
+                ]
+            },
+            {
+                "parent": "Z0",
+                "probability": 0.119259,
+                "daughters": [
+                    "c",
+                    "cbar"
+                ]
+            },
+            {
+                "parent": "Z0",
+                "probability": 0.066806,
+                "daughters": [
+                    "nu_tau",
+                    "nu_taubar"
+                ]
+            },
+            {
+                "parent": "Z0",
+                "probability": 0.066806,
+                "daughters": [
+                    "nu_mu",
+                    "nu_mubar"
+                ]
+            },
+            {
+                "parent": "Z0",
+                "probability": 0.066806,
+                "daughters": [
+                    "nu_e",
+                    "nu_ebar"
+                ]
+            },
+            {
+                "parent": "Z0",
+                "probability": 0.033576,
+                "daughters": [
+                    "mu-",
+                    "mu+"
+                ]
+            },
+            {
+                "parent": "Z0",
+                "probability": 0.033576,
+                "daughters": [
+                    "e-",
+                    "e+"
+                ]
+            },
+            {
+                "parent": "Z0",
+                "probability": 0.0335,
+                "daughters": [
+                    "tau-",
+                    "tau+"
+                ]
+            }
+        ],
+        "symbol": "Z0",
+        "pdgName": "Z",
+        "programmName": "Z_0",
+        "charge": 0.0,
+        "mass": 91187.6,
+        "massLower": 2.1,
+        "massUpper": 2.1,
+        "quarks": "",
+        "selfConjugated": true,
+        "lifetime": 2.6375954997030915e-16,
+        "width": 2495.5,
+        "widthLower": 2.3,
+        "widthUpper": 2.3,
+        "angularMomentum": 1.0,
+        "spinType": "full",
+        "particleType": "boson",
+        "unicode": "Z\u2070",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "24": {
+        "name": "WPlus",
+        "pdgID": 24,
+        "pdgCode": "S043",
+        "pdg_dict_name": "W",
+        "decayModes": [
+            {
+                "parent": "W+",
+                "probability": 0.32136899999999996,
+                "daughters": [
+                    "dbar",
+                    "u"
+                ]
+            },
+            {
+                "parent": "W+",
+                "probability": 0.32061500000000004,
+                "daughters": [
+                    "sbar",
+                    "c"
+                ]
+            },
+            {
+                "parent": "W+",
+                "probability": 0.108166,
+                "daughters": [
+                    "e+",
+                    "nu_e"
+                ]
+            },
+            {
+                "parent": "W+",
+                "probability": 0.108166,
+                "daughters": [
+                    "mu+",
+                    "nu_mu"
+                ]
+            },
+            {
+                "parent": "W+",
+                "probability": 0.108087,
+                "daughters": [
+                    "tau+",
+                    "nu_tau"
+                ]
+            },
+            {
+                "parent": "W+",
+                "probability": 0.016502,
+                "daughters": [
+                    "sbar",
+                    "u"
+                ]
+            },
+            {
+                "parent": "W+",
+                "probability": 0.016493999999999998,
+                "daughters": [
+                    "dbar",
+                    "c"
+                ]
+            },
+            {
+                "parent": "W+",
+                "probability": 0.0005909999999999999,
+                "daughters": [
+                    "bbar",
+                    "c"
+                ]
+            },
+            {
+                "parent": "W+",
+                "probability": 1e-05,
+                "daughters": [
+                    "bbar",
+                    "u"
+                ]
+            }
+        ],
+        "symbol": "W+",
+        "pdgName": "W",
+        "programmName": "W_plus",
+        "charge": 1.0,
+        "mass": 80377.0,
+        "massLower": 12.0,
+        "massUpper": 12.0,
+        "quarks": "",
+        "selfConjugated": false,
+        "lifetime": 3.164480562263974e-16,
+        "width": 2080.0,
+        "widthLower": 40.0,
+        "widthUpper": 40.0,
+        "angularMomentum": 1.0,
+        "spinType": "full",
+        "particleType": "boson",
+        "unicode": "W\u207a",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    },
+    "25": {
+        "name": "Higgs",
+        "pdgID": 25,
+        "pdgCode": "S126",
+        "pdg_dict_name": "H0",
+        "decayModes": [
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.587673,
+                "daughters": [
+                    "b",
+                    "bbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.215572,
+                "daughters": [
+                    "W+",
+                    "W-"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.06908,
+                "daughters": [
+                    "tau-",
+                    "tau+"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0630585,
+                "daughters": [
+                    "g",
+                    "g"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0335602,
+                "daughters": [
+                    "c",
+                    "cbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.025970800000000002,
+                "daughters": [
+                    "Z0",
+                    "Z0"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0028438,
+                "daughters": [
+                    "gamma",
+                    "gamma"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0017601,
+                "daughters": [
+                    "gamma",
+                    "Z0"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0002445,
+                "daughters": [
+                    "mu-",
+                    "mu+"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0002361,
+                "daughters": [
+                    "s",
+                    "sbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 9.000000000000001e-07,
+                "daughters": [
+                    "d",
+                    "dbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 2.0000000000000002e-07,
+                "daughters": [
+                    "u",
+                    "ubar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~nu_tauR",
+                    "~nu_tauRbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~tau_2-",
+                    "~tau_2+"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~nu_muR",
+                    "~nu_muRbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~mu_R-",
+                    "~mu_R+"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~nu_eR",
+                    "~nu_eRbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~e_R-",
+                    "~e_R+"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~t_2",
+                    "~t_2bar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~b_2",
+                    "~b_2bar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~c_R",
+                    "~c_Rbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~s_R",
+                    "~s_Rbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~u_R",
+                    "~u_Rbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~d_R",
+                    "~d_Rbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_2+",
+                    "~chi_1-"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_2+",
+                    "~chi_2-"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_40",
+                    "~chi_40"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_40",
+                    "~chi_30"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_40",
+                    "~chi_20"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_40",
+                    "~chi_10"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_30",
+                    "~chi_30"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_30",
+                    "~chi_20"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_30",
+                    "~chi_10"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_1+",
+                    "~chi_1-"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_1+",
+                    "~chi_2-"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_20",
+                    "~chi_20"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_20",
+                    "~chi_10"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~chi_10",
+                    "~chi_10"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~nu_tauL",
+                    "~nu_tauLbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~nu_tauL",
+                    "~nu_tauRbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~tau_1-",
+                    "~tau_1+"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~tau_1-",
+                    "~tau_2+"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~nu_muL",
+                    "~nu_muLbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~nu_muL",
+                    "~nu_muRbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~mu_L-",
+                    "~mu_L+"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~mu_L-",
+                    "~mu_R+"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~nu_eL",
+                    "~nu_eLbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~nu_eL",
+                    "~nu_eRbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~e_L-",
+                    "~e_L+"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~e_L-",
+                    "~e_R+"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~t_1",
+                    "~t_1bar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~t_1",
+                    "~t_2bar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~b_1",
+                    "~b_1bar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~b_1",
+                    "~b_2bar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~c_L",
+                    "~c_Lbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~c_L",
+                    "~c_Rbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~s_L",
+                    "~s_Lbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~s_L",
+                    "~s_Rbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~u_L",
+                    "~u_Lbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~u_L",
+                    "~u_Rbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~d_L",
+                    "~d_Lbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~d_L",
+                    "~d_Rbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "e-",
+                    "e+"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "t",
+                    "tbar"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~d_Lbar",
+                    "~d_R"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~u_Lbar",
+                    "~u_R"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~s_Lbar",
+                    "~s_R"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~c_Lbar",
+                    "~c_R"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~b_1bar",
+                    "~b_2"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~t_1bar",
+                    "~t_2"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~e_L+",
+                    "~e_R-"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~nu_eLbar",
+                    "~nu_eR"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~mu_L+",
+                    "~mu_R-"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~nu_muLbar",
+                    "~nu_muR"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~tau_1+",
+                    "~tau_2-"
+                ]
+            },
+            {
+                "parent": "h0(H_1)",
+                "probability": 0.0,
+                "daughters": [
+                    "~nu_tauLbar",
+                    "~nu_tauR"
+                ]
+            }
+        ],
+        "symbol": "H0",
+        "pdgName": "H",
+        "programmName": "H_0",
+        "charge": 0.0,
+        "mass": 125250.0,
+        "massLower": 170.0,
+        "massUpper": 170.0,
+        "quarks": "",
+        "selfConjugated": true,
+        "lifetime": 2.0569123654715828e-13,
+        "width": 3.2,
+        "widthLower": 1.7,
+        "widthUpper": 2.4,
+        "angularMomentum": null,
+        "spinType": "Unknown",
+        "particleType": "boson",
+        "unicode": "H\u2070",
+        "isoSpin": null,
+        "chargeConjugate": null,
+        "paritySymmetry": null
+    }
+}
