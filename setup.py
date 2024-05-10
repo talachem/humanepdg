@@ -18,7 +18,6 @@ setuptools.setup(
     python_requires='>=3.9',
     install_requires=[
         "numpy>=1.21.0",
-        "uproot>=4.0.11",
         "importlib_resources>=6.1.0"
     ],
     keywords=['python', 'pdg', 'root'],
